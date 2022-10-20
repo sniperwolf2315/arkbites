@@ -1,0 +1,81 @@
+/*
+ * software de desarrollo a la medida - Sistema ERP para PYMEs
+ * Copyright (C) 2016 carlos villalobos <carvilf@gmail.com>
+ *
+ * este programa es de uso licenciado y distribuido por su propietario adsi gaes 15 carlos villalobos;se encuentra prohibida su reproduccion y modificacion parcial o total
+ * aplican terminos de licencia shareware, prohibido su reproduccion y distribucion sin previa autorizacion del autor
+ */
+
+/* FORMULARIOS */
+
+fieldset {
+    
+    padding-left: 20px;
+    background-color: #CCC8C1;
+    border-style: none;
+    margin-top: -14px;
+}
+
+fieldset ol {
+    
+    padding: 0px;
+    list-style: none;
+}
+
+fieldset li {
+
+    margin-bottom: 5px;
+}
+
+fieldset.submit {
+
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-style: none;
+    background-color: #FFFFFF;
+}
+
+legend {
+
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+label {
+
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+    clear: left;
+}
+
+/* login */
+
+fieldset.login {
+
+    margin: auto;
+    width: 300px;
+}
+
+span.login {
+    
+    margin: auto;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+    padding-right: 25px;
+    padding-left: 25px;
+    height: 30px;
+}
+
+/* error */
+span.error {
+    
+    color: red;
+}
+.cargando {
+	background: white url(http://localhost/abc/img/wait_animation3.gif) no-repeat right center;
+}

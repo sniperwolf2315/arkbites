@@ -1,0 +1,111 @@
+/*
+ * software de desarrollo a la medida - Sistema ERP para PYMEs
+ * Copyright (C) 2016 carlos villalobos <carvilf@gmail.com>
+ *
+ * este programa es de uso licenciado y distribuido por su propietario adsi gaes 15 carlos villalobos;se encuentra prohibida su reproduccion y modificacion parcial o total
+ * aplican terminos de licencia shareware, prohibido su reproduccion y distribucion sin previa autorizacion del autor
+ */
+
+/* boton de salir */
+#logout {
+    border: 1px;
+    float: right;
+    width: 50px;
+    margin: auto;
+}
+
+#logout a, #logout a:link, #logout a:visited, #logout a:hover {
+    
+    border: 0px;
+    background-color: #690D1A;
+}
+
+#logout img {
+    
+    border: 0px;
+}
+
+/* listados */
+#listado {
+
+    width: 700px;
+    height: 450px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+    clear: both;
+}
+
+#listado_medio {
+    width: 700px;
+    height: 150px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+    clear: both;
+}
+
+#listado_corto {
+    width: 700px;
+    height: 100px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+    clear: both;
+}
+
+#listado table.cebra, #listado_corto table.cebra, #listado_medio table.cebra {
+    
+    width: 650px;
+    margin: auto;
+    border-spacing: 0px;
+}
+
+#listado td, #listado_corto td, #listado_medio td {
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 1px solid #690D1A;
+}
+
+#listado tr.alt, #listado_corto tr.alt, #listado_medio tr.alt {
+    
+    background-color: #FFE9D9;
+}
+
+#listado tr.over, #listado_corto tr.over, #listado_medio tr.over {
+    
+    background-color: #DDC7B7;
+}
+
+#listado tr.cabecera, #listado_corto tr.cabecera, #listado_medio tr.cabecera {
+
+    background-color: #690D1A;
+    color: #FFFFFF;
+    position: relative;
+}
+
+#listado thead.cabecera, #listado_corto thead.cabecera, #listado_medio thead.cabecera {
+    position: relative;
+    overflow: visible;
+}
+
+#listado img, #listado_corto img, #listado_medio img {
+
+    border: 0px;
+}
+span.tip {
+	color:#666666;
+	display:inline;
+}

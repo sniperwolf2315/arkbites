@@ -1,0 +1,268 @@
+/*
+ * ABC ERP - Sistema ERP para PYMEs
+ * Copyright (C) 2012 Santiago Faci <santi@arkabytes.com>
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
+
+body {
+	background: #777777;	
+	font-size: 13px;
+	font-family: Calibri, "Myriad Pro",Myriad,"Trebuchet MS",Helvetica,Arial,sans-serif;
+	font-style: normal;
+	margin: 0px;
+	text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+#container{
+	text-align: center;
+	width: 770px;
+	height: 700px;
+	margin: auto;
+	background-color: #FFFFFF;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+    overflow: auto;
+}
+
+#logo {
+	display: block;
+	margin: auto;
+	background: url(../../img/logo.jpg);
+	height: 146px;
+	width: 770px;
+	padding: 0px;
+	background-repeat: no-repeat;
+}
+
+#content {
+	float: left;
+	width: 730px;
+	height: auto;
+	margin: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #FFFFFF;
+	min-height: 200px;
+}
+
+#header {
+	width: auto;
+	height: 33px;
+	background-color: #690D1A;
+	border-top: 6px solid #690D1A;
+	border-left: 6px solid #690D1A;
+	border-right: 6px solid #690D1A;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	text-align:center;
+}
+
+#header a, #header a:visited {
+	display: block;
+	float: left;
+	padding-top: 5px;
+	padding-left: 7px;
+	padding-right: 7px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;	
+	border-right: 4px solid #690D1A;
+	height: 28px;
+	text-align: center;
+}
+
+#header A:hover {
+	color: #690D1A;
+	background-color: #FFE9D9;
+	text-decoration: none;
+}
+
+#header A.activo {
+
+	color: #690D1A;
+	background-color: #FFE9D9;
+	text-decoration: none;
+}
+
+#header #login {
+
+	background-color: #FFFFFF;
+	color: #610B18;
+	margin: auto;
+	padding: 5px 10px 5px 10px;
+	width: 150px;
+}
+
+
+#subheader {
+    height: 30px;
+    width: auto;
+    background-color: #FFE9D9;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #FFFFFF;
+}
+
+#subheader a {
+    
+    display: block;
+    float: left;
+    padding: 1px;
+    text-decoration: none;
+    text-align: center;
+    height: 25px;
+}
+
+#subheader img {
+
+    border-top: 0px;
+    border-bottom: 2px solid #FFE9D9;
+    border-right: 0px;
+    border-left: 0px;
+    padding-right: 5px;
+}
+
+#footer {
+	clear: both;
+	width: 770px;
+	color: #FFFFFF;
+	background: #690D1A;
+	padding: 10px 0px 10px 0px;
+	border-top: 2px solid #690D1A;
+	font-size: 14px;
+	text-align: center;
+}
+
+#validador {
+    margin: auto;
+}
+
+/* búsqueda rápida */
+#fija {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    height: 20px;
+    width: 300px;
+    float: right;
+}
+
+#fija input {
+
+    float: right;
+}
+
+span.tabla {
+	width: 690px;
+	margin: auto;
+	padding: 0px;
+}
+
+span.celdai {
+
+	float: left;
+	width: 320px;
+	height: 140px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	font-weight: normal;
+	color: #000000;
+	text-align: justify;
+}
+
+span.celdad {
+
+	float: right;
+	width: 320px;
+	height: 140px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	font-weight: normal;
+	color: #000000;
+	text-align: justify;
+}
+
+span.celdad:hover, span.celdai:hover {
+
+	background-color: #FCCB38;
+}
+
+span.celdad IMG, span.celdai IMG {
+
+	border: 0px;
+	height: 80px;
+	width: 80px;
+	float: left;
+	padding: 5px 9px 5px 5px;
+}
+
+span.celdad img.icono, span.celdai img.icono {
+
+    height: 32px;
+    width: 32px;
+    border: 0px;
+}
+
+span.titulocelda {
+
+	font-size: 18px;
+	color: #690D1A;
+	line-height: 0px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+#boton {
+	text-align: center;
+}
+
+#boton IMG {
+	border: 0px;
+}
+
+A, A:visited, A:active {
+    color: #690D1A;
+	text-decoration: none;
+}
+
+table.alta {
+
+    width: 700px;
+    border-spacing: 8px;
+}
+
+#validador {
+
+    margin: auto;
+}

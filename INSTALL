@@ -1,0 +1,95 @@
+﻿--------------------------
+| INSTALACIÓN DE ARKABITE |
+--------------------------
+
+
+
+(20 de NOVIEMBRE 2016)
+
+--------------
+- 
+
+Requisitos -
+--------------
+
+
+
+Para instalar sin problemas ARKABITE necesitas el siguiente software:
+
+
+
+- Apache 2.X y las siguientes extensiones:
+    
+- libapache2-mod-php5: Módulo de Apache para procesas páginas PHP
+
+
+- MySQL 5.X (aunque debería ir sin problemas en versiones anteriores)
+
+
+- PHP 5.X con estas extensiones:
+    
+- php5-mysql: Módulo de PHP para trabajar con MySQL
+    
+- php5-mysqlnd: Módulo de PHP para trabajar con driver nativo de MySQL
+    
+- php5-gd: Módulo GD de PHP para tratamiento de imágenes
+
+Se recomienda instalar phpMyAdmin para facilitar las tareas de instalación y configuración de la aplicación.
+
+ A día de hoy no se dispone
+de ningún instalador y hay que hacer algunas tareas manuales, tal y como se describe a continuación
+
+
+
+-----------------
+- Base de datos -
+-----------------
+
+
+
+La base de datos está probada sin problemas para MySQL 5.5, aunque debería funcionar para versiones anteriores sin mayor problema.
+
+
+Antes de lanzar la importación de los scripts habrá que crear una base de datos vacía con el nombre que se desee.
+
+
+El script de la Base de Datos se encuentra en la carpeta 'sql' del proyecto. 
+
+
+Por último habrá que crear al menos un usuario, asignando al menos usuario y contraseña (INSERT INTO usuarios (usuario, contrasena) VALUES
+('miusuario', MD5('micontrasena')).
+
+
+Hay que tener en cuenta que a algunas de las tablas de la base de datos actualmente no se les da ningún uso puesto que están pensadas para
+futuras funcionalidades.
+
+
+
+-------
+- Web -
+-------
+
+
+
+Hay que copiar todo el contenido de esta carpeta (excepto la carpeta 'sql') al espacio web asignado en el equipo donde se encuentre el
+servidor web.
+
+
+Hay que tener en cuenta que se tendrá que tener instalado PHP y el módulo para Apache para que la web funcione sin problemas.
+
+Todas las librerias de JQuery necesarias vienen incluidas en la web por lo que no es necesario instalar nada más.
+
+
+En la carpeta 'config' hay un fichero 'abc-config.php' que contiene algunas constantes que deben ser adaptadas a la instalación de cada uno:
+
+
+DB_USER - Se debe indicar el usuario de MySQL con el que se realiza la conexión con la base de datos
+
+DB_PASSWORD - Se debe indicar la contraseña del usuario de MySQL con el que se realiza la conexión con la base de datos
+
+DB_HOST - Host donde se encuentra instalado MySQL (normalmente 'localhost')
+
+DB_NAME - Nombre que se le ha asignado a la base de datos (antes de haber importado el script)
+
+BASE_URL - URL hasta la carpeta raíz de la aplicación web. Podrá ser algo como 'http://www.midominio.com/' si se instala en el raíz del
+espacio web asignado, o 'http://www.midominio.com/abc' si se instala dentro de alguna carpeta.

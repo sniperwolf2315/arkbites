@@ -1,0 +1,45 @@
+Version 0.6.4
+(2 de octubre de 2014)
+    - Informe de listado completo para Clientes, Proveedores, Artículos, Pedidos y Facturas
+    - Los informes se pueden realizar con la información filtrada en una búsqueda rápida
+    - Corregidos algunos 'warnings' al activar la salida de errores
+    - Corregidos fallos en el cálculo de subtotales, importes y costes del envío para pedidos y facturas
+    - Ya se permite buscar pedidos y/o facturas por fecha (con la búsqueda rápida)
+    - El tipo de IVA ya se visualiza correctamente (en %) antes de modificarlo
+    - Modificado el carácter decimal en los valores con decimales para usar la coma
+
+Version 0.6.3
+(31 Enero de 2014)
+    - Se puede generar un código de barras con el identificar de cada artículo
+    - Los resultados de tablas se paginan
+    - Se ha mejorado la búsqueda rápida. Busca en toda la tabla y también pagina los resultados
+    - Se ha añadido control de stock para los artículos
+    - Se ha corregido un fallo a la hora de calcular el siguiente número de pedido y factura
+
+Version 0.6.2
+(19 Enero de 2014)
+    - Corregidos algunos fallos con los tipos de datos
+    - Se han mejorado algunos aspectos de usabilidad para el usuario
+    - Se ha corregido la deformación de las imágenes
+    - Ahora se pueden subir imágenes de artículos en png, jpg y gif
+    - Se pueden anotar automáticamente los pedidos como eventos en el calendario
+    - Se han corregido algunos problemas de redondeo
+
+Version 0.6.1
+(29 Diciembre de 2013)
+	- Añadido panel de configuración (perfil, empresa y opciones de aplicación)
+	- Corregida provincia en clientes y proveedores
+	- Ahora los pedidos y facturas generan el pdf cogiendo los datos configurados en la aplicación
+
+Version 0.6
+(27 Diciembre de 2013)
+
+    Primera versión 'usable' de la aplicación
+     - Gestión de clientes (alta, modificación y baja)
+     - Gestión de proveedores (alta, modificación y baja)
+     - Gestión de pedidos (creación y baja)
+     - Gestión de facturas (creación y baja)
+     - Gestión de los artículos (alta, modificación y baja)
+     - Gestión del tiempo (tareas, eventos y calendario)
+     - Tablas maestras (formas de envío, formas de pago y tipos de iva)
+     - Informes (pedidos y facturas)
